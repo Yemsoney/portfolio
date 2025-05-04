@@ -1,0 +1,161 @@
+.project {
+    padding: 10rem 2rem 5rem; /* Top padding fixed! */
+    background: var(--bg-color);
+    text-align: center;
+}
+
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.project-box {
+    position: relative;
+    overflow: hidden;
+    border-radius: 1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: #1a1a1a; /* bonus background for card */
+}
+
+.project-box img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 1rem 1rem 0 0;
+    transition: transform 0.4s ease;
+}
+
+.project-box:hover img {
+    transform: scale(1.05);
+}
+
+.project-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 255, 195, 0.3); /* stronger shadow */
+}
+
+.project-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.85); /* little darker overlay */
+    color: var(--text-color);
+    text-align: center;
+    padding: 1.5rem;
+    transform: translateY(100%);
+    transition: transform 0.4s ease;
+}
+
+.project-box:hover .project-content {
+    transform: translateY(0);
+}
+
+.project-content h3 {
+    font-size: 1.8rem;
+    color: var(--main-color);
+    margin-bottom: 1rem;
+}
+
+.project-content p {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.project-content .btn {
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    background: var(--main-color);
+    color: #0d0d0d;
+    font-weight: bold;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.project-content .btn:hover {
+    background: var(--text-color);
+    color: var(--main-color);
+} .project {
+    padding: 10rem 2rem 5rem; /* Top padding fixed! */
+    background: var(--bg-color);
+    text-align: center;
+}
+
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.project-box {
+    position: relative;
+    overflow: hidden;
+    border-radius: 1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: #1a1a1a; /* bonus background for card */
+}
+
+.project-box img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 1rem 1rem 0 0;
+    transition: transform 0.4s ease;
+}
+
+.project-box:hover img {
+    transform: scale(1.05);
+}
+
+.project-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 255, 195, 0.3); /* stronger shadow */
+}
+
+.project-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.85); /* little darker overlay */
+    color: var(--text-color);
+    text-align: center;
+    padding: 1.5rem;
+    transform: translateY(100%);
+    transition: transform 0.4s ease;
+}
+
+.project-box:hover .project-content {
+    transform: translateY(0);
+}
+
+.project-content h3 {
+    font-size: 1.8rem;
+    color: var(--main-color);
+    margin-bottom: 1rem;
+}
+
+.project-content p {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.project-content .btn {
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    background: var(--main-color);
+    color: #0d0d0d;
+    font-weight: bold;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.project-content .btn:hover {
+    background: var(--text-color);
+    color: var(--main-color);
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <!--box icone-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="stayle.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo" data-aos="fade-right">Yem Soney</a>
+        <i class='bx bx-menu'id="menu-icon"></i>
+
+        <nav class="navabar" data-aos="fade-down">
+            <a href="#home" class="active">Home</a>
+            <a href="#about" class="a">About</a>
+            <a href="#services" class="a">Services</a>
+            <a href="#project" class="a">Project</a>
+            <a href="#contact" class="a">Contact</a>
+            
+
+        </nav>
+    </header>
+    <!--home section desigh-->
+    
+    <section class="home" id="home">
+        <div class="home-content" data-aos="fade-right">
+            <h3>Hello, It's Me</h3>
+            <h1>Yem Soney</h1>
+            <h3>And I'm a <span class="typing-effect">Web Developer</span></h3>
+            <p>Welcome to my website , Thank you for visiting!</p>
+            <div class="social-media" data-aos="zoom-in">
+                <a href="https://web.facebook.com/ilanhcode"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-tiktok'></i></a>
+                <a href="https://t.me/Yemsoney"><i class='bx bxl-telegram'></i></a>
+                <a href="https://github.com/YemSoney"><i class='bx bxl-github'></i></a>
+            </div>
+            <a href="https://resume-sandy-five-78.vercel.app/" class="btn">MY cv</a>
+        </div>
+        <div class="home-image" data-aos="zoom-in">
+            <img src="image/image-removebg-preview.png" alt="">
+        </div>
+    </section>
+    <!--about section desigh-->
+    <section class="about" id="about" data-aos="fade-up">
+        <div class="about-image" data-aos="fade-right">
+            <img src="image/image-removebg-preview.png" alt="About Me">
+        </div>
+        <div class="about-content" data-aos="fade-left">
+            <h2 class="heading">About <span>Me</span></h2>
+            <p>Hello everyone who came to my website. My name is Yem Soney. I'm 18 years old, studying at Phanh Chiet University in the Faculty of Mathematics and Science, majoring in Computer Science (CS).</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+</section>
+    <!--services desigh-->
+    <section class="services" id="services">
+        <h2 class="heading">our <span>Services</span></h2>
+        <dav class="services-container">
+            <dav class="servies-box" data-aos="fade-right">
+                <i class='bx bx-code-alt'></i>
+            <h3>web Development</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Et nesciunt quis aut incidunt quo 
+                vitae eveniet quae vero ipsum asperiores?</p>
+                <a href="#" class="btn">Read more</a>
+        </dav>
+            
+        <div class="servies-box" data-aos="fade-up">
+            <i class='bx bx-network-chart'></i>
+            <h3>Network</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Et nesciunt quis aut incidunt quo 
+                vitae eveniet quae vero ipsum asperiores?</p>
+                <a href="#" class="btn">Read more</a>
+
+        </div>
+        <div class="servies-box" data-aos="fade-left">
+            <i class='bx bxs-paint'></i>
+            <h3>Graphic Design</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Et nesciunt quis aut incidunt quo 
+                vitae eveniet quae vero ipsum asperiores?</p>
+                <a href="#" class="btn">Read more</a>
+        </div>
+    </section>
+    <!--contact section desigh-->
+    <section class="project" id="project">
+        <h2 class="heading" data-aos="fade-right">My <span>Projects</span></h2>
+        <div class="project-container">
+            <div class="project-box" data-aos="fade-right">
+                <img src="image/image.png" alt="Project 1">
+                <div class="project-content">
+                    <h3>Project 1</h3>
+                    <p>A responsive website built using React.js
+                        HTML5 & CSS3
+                        JavaScript (ES6)
+                        Hosted on Vercel.</p>
+                    <a href="https://github.com/Yemsoney/resume" class="btn">View Project</a>
+                </div>
+            </div>
+            <div class="project-box" data-aos="fade-up"​>
+                <img src="project2.jpg" alt="Project 2">
+                <div class="project-content">
+                    <h3>Project 2</h3>
+                    <p>An e-commerce platform with a fully functional shopping cart.</p>
+                    <a href="https://github.com/Yemsoney/movie-front" class="btn">View Project</a>
+                </div>
+            </div>
+            <div class="project-box" data-aos="fade-left"​>
+                <img src="project3.jpg" alt="Project 3">
+                <div class="project-content">
+                    <h3>Project 3</h3>
+                    <p>A portfolio website showcasing creative designs and animations.</p>
+                    <a href="https://github.com/Yemsoney/portfolio" class="btn">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>   
+    <button id="theme-toggle" class="theme-btn">🌙</button>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="https://formspree.io/f/xqaqagzl" method="POST" class="contact-form">
+          <div class="input-box">
+            <input type="text" name="Full Name" placeholder="Full Name" required>
+            <input type="email" name="Email" placeholder="Email Address" required>
+          </div>
+      
+          <div class="input-box">
+            <input type="tel" name="Phone" placeholder="Phone Number">
+            <input type="text" name="Subject" placeholder="Subject" required>
+          </div>
+      
+          <textarea name="Message" placeholder="Your Message" rows="6" required></textarea>
+      
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </section>
+      
+      
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script>
+  (function(){
+    emailjs.init('HG6GtyHcNtmboA-7J'); // Replace with your public key
+  })();
+
+  document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault(); // stop page reload
+
+    emailjs.sendForm('service_vnbgkof', 'template_vnbgkof', this) // Updated template ID
+      .then(function() {
+          alert('Message sent successfully! 🚀');
+      }, function(error) {
+          alert('Failed to send message! ❌ Please try again.');
+          console.log('FAILED...', error);
+      });
+  });
+</script>
+    <script>
+        AOS.init({
+            duration: 1200,
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</body>
+</html>
